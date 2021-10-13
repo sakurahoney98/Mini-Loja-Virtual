@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>I Love Discos</title>
+<link rel="stylesheet" type="text/css" href="estilo.css"/>
+<link rel="shortcut icon" href="images/Imagem3.png" type="image/x-icon">
+
+</head>
+<body>
+    <div class="header">
+        <img src="images/Imagem1.png" id="logo">
+        <nav class="navbar">
+            <ul>
+            <li><a class="navbar" href="#">HOME</a></li>
+            <li><a class="navbar" href="#">PRODUTOS</a></li>
+            <li><a class="navbar" href="#">LOGIN</a></li>
+            <li><a class="navbar" href="#">QUEM SOMOS NÓS</a></li>
+
+            </ul>
+        </nav> 
+        
+       <img id="imgcar"src="images/Imagem2.png"> <a id="carrinho" href="/Prova/Carrinho.jsp">Carrinho</a>
+        
+       
+    </div>
+    <h1 id="title_pag">Itens em promoção!</h1>
+    <p>Adicone os itens ao carrinho e descubra as promoções que preparamos para você!</p>
+<form name = "principal" action="/Prova/adicionar" method="get">
+    <div class="principal">
+
+        <div class="produto">
+                <div class="image">
+        <img src="https://a-static.mlcdn.com.br/1500x1500/cd-nirvana-nevermind-universal/estacaocd/602527779089/f4fb2004c0cef22490d61ecbb9f753b8.jpg">
+    </div>
+
+    <div class="title">
+        <h3>CD Nirvana - Nevermind</h3>
+        <input name="titulo1" type="hidden" value="CD Nirvana - Nevermind">
+        
+    </div>
+
+    <div class="price">
+        <h1>R$ 32,90</h1>
+                
+        <input name="valor1" type="hidden" value="32,90" readonly>
+
+            
+    </div>
+    
+    <div class="amount">
+        Quantidade: <input type="number" name="quantidade1" min=0 max=20>
+        
+    </div>
+
+    <div class="button">
+        
+        <button type="submit">Adcionar ao carrinho</button>
+        
+
+
+    </div>
+
+        </div>
+        <div class="produto">
+            <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/pt/3/3a/SlipknotIowaCapa.jpg">
+    </div>
+
+    <div class="title" name="title">
+        <h3>Cd Slipknot - Iowa</h3>
+        <input name="titulo2" type="hidden" value="Cd Slipknot - Iowa">
+        
+        
+        
+    </div>
+
+    <div class="price">
+       <h1>R$ 78,00 </h1>
+        <input name="valor2" type="hidden" value="78,00" readonly>
+
+           
+       
+    </div>
+    
+    
+    <div class="amount">
+        Quantidade: <input type="number" name="quantidade2" min=0>
+        
+    </div>
+
+    <div class="button">
+        <button type="submit">Adicionar ao carrinho</button>
+
+
+    </div>
+
+
+        </div>
+        <div class="produto">
+            <div class="image">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71dCasB3M5L._AC_SL1500_.jpg">
+    </div>
+
+    <div class="title" >
+        
+        <h3>CD - Evanescence - Fallen</h3>
+        <input name="titulo3" type="hidden" value="CD - Evanescence - Fallen" readonly>
+        
+    </div>
+
+    <div class="price">
+        
+            <h1>R$ 159,00</h1>
+                
+                <input name="valor3" type="hidden" value="159,00" readonly>
+
+            
+        
+    
+    </div>
+    <div class="amount">
+        Quantidade: <input type="number" name="quantidade3" min=0>
+        
+    </div>
+
+    <div class="button">
+    <button type="submit">Adicionar ao carrinho</button>
+
+
+    </div>
+
+
+
+        </div>
+        <div class="produto">
+            <div class="image">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71-nhMkC-vL._AC_SX425_.jpg">
+    </div>
+
+    <div class="title" >
+        
+        <h3>Cd Linkin Park - Meteora</h3>
+        <input name="titulo4" type="hidden" value="Cd Linkin Park - Meteora">
+        
+    </div>
+
+    <div class="price">
+        
+            <h1>R$ 35,79</h1>
+                
+                <input name="valor4" type="hidden" value="35,79">
+
+            
+        
+    
+    </div>
+    <div class="amount">
+        Quantidade: <input type="number" name="quantidade4" min=0>
+        
+    </div>
+
+    <div class="button">
+    <button type="submit">Adicionar ao carrinho</button>
+
+
+    </div>
+
+
+        </div>
+
+        <div id="footerPI">
+       @copyright 2021 Sakura all rights reserved 
+
+    </div>
+    </div>
+    
+    </form>
+
+   
+
+   
+
+
+</body>
+</html>

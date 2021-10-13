@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Yanone+Kaffeesatz:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap');
+
+
+.produto{
+    background: whitesmoke;
+    width: 250px;
+    height: 550px;
+    border: solid;
+    border-radius: 20px;
+    float:  left;
+    margin-right: 30px;
+    align-content: center;
+    text-align: center;
+
+
+
+}
+
+
+.principal{
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    
+   
+    
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.header {
+    background: #FEC200;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   }
+
+
+#logo {
+    height: 100%;
+    margin-left: 20px;
+    
+}
+
+#carrinho {
+    display: block;
+    padding-left: 10px;
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: 30px;
+    float: right;
+}
+
+.navbar {
+    float: center;
+}
+
+.navbar ul li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: center;
+    display: inline-block;
+    margin: 50px;
+}
+
+.navbar ul li a{
+    float: center;
+    display: block;
+    color: whitesmoke;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+ 
+    
+}
+
+#imgcar {
+height: 50%;
+display: block;
+float: right;
+}
+
+body{
+    background: #E2E2E2;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin-top: 20px;
+}
+
+#footerPI {
+   position: absolute;
+    bottom:0;
+    top: 100%;
+    width: 100%;
+   margin-top: 20px;
+    background: #FEC200;
+    height: 60px;
+    color: #363636;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    height: 70px;
+}
+
+.price{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 40px;
+}
+
+.amount{
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    
+
+}
+.amount input{
+    width: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.button button{
+    height: 50px;
+    width: 200px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+.button {
+     position: relative;
+    top: 80px;
+    
+
+}
+
+#title_pag{
+    margin-left: 50px;
+    font-size: 70px;
+    color: red;
+    font-family: Arial;
+}
+
+body p{
+    margin-left: 50px;
+    font-weight: bold;
+    font-weight: italic;
+    font-size: 18px;
+    color:  #363636;
+}

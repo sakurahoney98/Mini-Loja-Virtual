@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+#desconto{
+	color: red;
+	font-weight: bold;
+}
+
+.select{
+	float: left;
+	margin-left: 10px;
+}
+
+.image img{
+	width: 100px;
+	height: 100px;
+	
+}
+
+.image{
+	float: left;
+	margin-left: 10px;
+}
+
+.conteudo{
+	float: left;
+	margin-left: 30px;
+}
+
+
+.titulo {
+	font-weight: bold;
+}
+select{
+	float: left;
+}
+
+h1{
+		font-size: 50px;
+		color: #363636
+		
+}
+
+#button{
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-bottom: 100px;
+	
+}
+
+a {
+	
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+
+.header {
+    background: #FEC200;
+    height: 100px;
+    align-items: right;
+    display: flex;
+    justify-content: right;
+     margin-bottom: 20px;
+    
+   }
+   
+ .header h1{
+ color: white;
+ font-size: 50px;
+ margin-right: 65%;
+ }
+
+body{
+	padding: 0;
+    margin: 0;
+   background:  #E2E2E2;
+   height: 100%;
+   }
+   
+ #footer{
+ 	position: fixed;
+   left: 0;
+   bottom: 0;
+	width: 100%;
+    background: #FEC200;
+    height: 60px;
+    color: #363636;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+ }
+ 
+ p {
+ font-weight: bold;
+ font-size: 30px;
+ margin-right: 40px;
+ text-align: right;
+ }
+ 
+ #empty{
+ height: 100%;
+ }
+ #empty h1{
+ margin-left: 30px;
+ 
+ 
+ }
